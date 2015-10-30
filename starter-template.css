@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px 20px 15px;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.ranking-row {
+  margin-top: 30px;
+}
+
+.side-panel > .btn-group > .btn {
+  margin: 10px 0px;
+}
